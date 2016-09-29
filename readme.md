@@ -31,4 +31,5 @@ To run program from IDE you need to run main method in Aggregator class.
 To run with Maven enter next commands in app directory:
 
 `mvn install`
+
 `mvn exec:java -Dexec.mainClass="com.mzherdev.searchaggregator.Aggregator"`
