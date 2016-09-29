@@ -1,4 +1,4 @@
-####Search aggregator
+##Search aggregator
 Alice is your colleague in the marketing team. She is not satisfied with using any one search engine for her research.
 She usually tries the same search phrase on multiple search engines and the process is tedious for her. 
 You insist on automating this manual process and make life easier for her. i.e you decide to build a service that 
@@ -23,12 +23,6 @@ The deliverable should be some form of a language api (An interface or a functio
 Please add any other additional optional parameters as suitable. 
 The goal is to produce a library/sdk that can be wrapped to create a http web service at a later point.
 
-<!--Provided are code snippets for Google and Bing search apis. -->
-<!--The code snippets are purposefully crude and devoid of any semblance to good production code. -->
-<!--Please replace the Bing api keys with your own. If you plan to use our test Bing app key, -->
-<!--which has a limit of 200 queries per day, please take care to not make too many calls and have -->
-<!--our keys throttled or ip's blacklisted-->
-
 ###Launching
 Program runs from IDE or with Maven.
 
@@ -36,5 +30,5 @@ To run program from IDE you need to run main method in Aggregator class.
 
 To run with Maven enter next commands in app directory:
 
-mvn install
-mvn exec:java -Dexec.mainClass="com.mzherdev.searchaggregator.Aggregator"
+'mvn install'
+'mvn exec:java -Dexec.mainClass="com.mzherdev.searchaggregator.Aggregator"'
